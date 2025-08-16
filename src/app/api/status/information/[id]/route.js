@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/dbConnect';
-import CategoryInfo from '@/models/category/Info';
+import CategoryInfo from '@/models/category/CategoryInfo';
 import { requirePerm } from '@/lib/auth/requirePerm';
 import { PERMS } from '@/lib/rbac';
 import { uploadBuffer, deleteKey } from '@/lib/s3';
