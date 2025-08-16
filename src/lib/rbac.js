@@ -168,7 +168,6 @@ const MENU = [
       { label: 'Voters Registration', href: '/dashboard/resources/voters-registration', perm: PERMS.VIEW_VOTERS_REGISTRATION },
       { label: 'Update Registration', href: '/dashboard/resources/voters-registration/update', perm: PERMS.UPDATE_VOTERS_REGISTRATION },
       { label: 'Parties', href: '/dashboard/resources/parties', perm: PERMS.VIEW_PARTIES },
-      { label: 'Update Parties', href: '/dashboard/resources/parties/update', perm: PERMS.UPDATE_PARTIES },
       { label: 'Polling Units', href: '/dashboard/resources/polling-units', perm: PERMS.VIEW_POLLING_UNITS },
       { label: 'Update Polling Units', href: '/dashboard/resources/polling-units/update', perm: PERMS.UPDATE_POLLING_UNITS },
     ]
